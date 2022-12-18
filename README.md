@@ -14,6 +14,11 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
+import numpy as np
+a = np.array([],[])
+b = np.array([])
+solution=np.linalg.solve(a,b)
+print(solution)
 
 ## Output:
 ## Result: 
